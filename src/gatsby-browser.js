@@ -1,11 +1,4 @@
-module.exports = {
-  plugins: [
-    `gatsby-plugin-emotion`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-  ],
-}
+import "./src/styles/global.css"
+
+// or:
+// require('./src/styles/global.css')

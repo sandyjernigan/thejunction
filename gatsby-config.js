@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Pandas Eating Lots`,
+    title: `Pandas Eating Lots`,,
+    description: `A simple description about pandas eating lots...`,
+    author: `gatsbyjs`,
   },
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

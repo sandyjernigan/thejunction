@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Pandas Eating Lots`,,
-    description: `A simple description about pandas eating lots...`,
-    author: `gatsbyjs`,
+    title: `The Junction`,
+    description: `Private club for members and guests.`,
+    author: `Sandy`,
   },
   plugins: [
     `gatsby-transformer-remark`,

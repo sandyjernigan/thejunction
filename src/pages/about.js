@@ -7,8 +7,7 @@ export default function About({ data }) {
     <Layout>
       <h1>About {data.site.siteMetadata.title}</h1>
       <p>
-        We're the only site running on your computer dedicated to showing the
-        best photos and videos of pandas eating lots of food.
+        Live bands on Saturday nights, Awesome bartenders, DJ takes requests between live show, and even finger foods!
       </p>
     </Layout>
   )

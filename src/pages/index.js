@@ -14,8 +14,9 @@ export default function Home({ data }) {
             border-bottom: 1px solid;
           `}
         >
-          Closed until Further Notice
+          Closed until Further Notice.
         </h1>
+          <p>Check back for more information about bands and events.</p>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
